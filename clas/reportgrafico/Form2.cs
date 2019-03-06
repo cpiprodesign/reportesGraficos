@@ -19,7 +19,11 @@ namespace reportgrafico
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'DataSet1.Factura' Puede moverla o quitarla según sea necesario.
+            this.FacturaTableAdapter.Fill(this.DataSet1.Factura);
+       
 
+            this.reportViewer1.RefreshReport();
         }
 
         private void reportViewer1_Load(object sender, EventArgs e)
