@@ -21,6 +21,25 @@ namespace reportgrafico
         {
 
             this.reportViewer1.RefreshReport();
+            this.reportViewer1.Refresh();
+            this.reportViewer1.RefreshReport();
+            this.reportViewer1.RefreshReport();
+            this.reportViewer1.RefreshReport();
+        }
+
+        private void reportViewer1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reportViewer1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reportViewer1_Load_2(object sender, EventArgs e)
+        {
+
         }
     }
 }
