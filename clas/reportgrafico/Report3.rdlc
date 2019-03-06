@@ -1062,6 +1062,9 @@
                     </ChartAxisScaleBreak>
                   </ChartAxis>
                 </ChartValueAxes>
+                <ChartThreeDProperties>
+                  <Enabled>true</Enabled>
+                </ChartThreeDProperties>
                 <Style>
                   <BackgroundColor>#00ffffff</BackgroundColor>
                   <BackgroundGradientType>None</BackgroundGradientType>
